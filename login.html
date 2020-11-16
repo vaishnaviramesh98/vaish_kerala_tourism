@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+</head>
+<body style=" background: url(./images/gallery.jpg);">
+<!-- navigation -->
+<!-- Just an image -->
+<nav class="navbar navbar-light navbar-expand-lg  sticky-top mynav">
+  <a class="navbar-brand" href="index.html" style="margin-left:3%;">
+    <img src="images/logo1.jfif"  width="70" height="50" alt="">
+  </a>
+  <div class="collapse navbar-collapse myright" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item item">
+          <a style="color: aliceblue;" class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- <li class="nav-item dropdown item">
+          <a style="color: aliceblue;" class="nav-link dropdown-toggle" href="district.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Districts
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a  class="dropdown-item" href="kasargod.html">Kasaragod</a>
+            <a class="dropdown-item" href="kannurr.html">Kannur</a>
+            <a class="dropdown-item" href="wayanad.html">Wayanad</a>
+            <a class="dropdown-item" href="kozhikode.html">Kozhikode</a>
+            <a class="dropdown-item" href="malappuram.html">Malappuram</a>
+            <a class="dropdown-item" href="palakkad.html">Palakkad</a>
+            <a class="dropdown-item" href="thrissur.html">Thrissur</a>
+            <a class="dropdown-item" href="ernakulam.html">Ernakulam</a>
+            <a class="dropdown-item" href="idukki.html">Idukki</a>
+            <a class="dropdown-item" href="kottayam.html">Kottayam</a>
+            <a class="dropdown-item" href="alappuzha.html">Alappuzha</a>
+            <a class="dropdown-item" href="pta.html">Pathanamthitta</a>
+            <a class="dropdown-item" href="kollam.html">Kollam</a>
+            <a class="dropdown-item" href="tvm.html">Thiruvananthapuram</a>
+            
+          </div> 
+        </li> -->
+        <li class="nav-item item">
+          <a style="color: aliceblue;" class="nav-link" href="district.html">Districts</a>
+        </li>
+        <li class="nav-item item">
+          <a style="color: aliceblue;" class="nav-link" href="login.html">Login</a>
+        </li>
+        <li class="nav-item item">
+          <a style="color: aliceblue;" class="nav-link" href="signup.html">Sign up</a>
+        </li>
+       </ul>
+   </div>     
+</nav>
+<!-- end of  navigation -->
+<div class="row mylog" style="margin-left: 15%; margin-right: 5%; margin-top: 7%; margin-bottom: 5%;">
+    <!-- <div class="col-lg-1" style="background: honeydew;"></div> -->
+    <div class="col-lg-4" >
+        
+        <svg width="7em" height="7em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" color="white" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+          <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+        </svg>
+        <br>
+        <br>
+        <h1>LOGIN</h1>
+        <br>
+        <svg width="10em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-right-square" fill="currentColor" color="white" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5A.5.5 0 0 0 4 8z"/>
+        </svg>
+    </div>
+    <div class="col-lg-6" >
+     <form  class="log" action="index.html" onsubmit="return validates();">
+        
+        <br>
+        <br>
+       
+        <div>
+          <label for="email" style="font-weight: bold; font-size: large;">Email address</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter email address">
+          <small id="errore"></small>
+      </div>
+        <br>
+        <div>
+          <label for="password" style="font-weight: bold; font-size: large;">Password</label>
+          <input type="password" name="password" id="password" onkeyup="return passwordchanged();" class="form-control" placeholder="Password">
+          <small id="errorpass"></small>
+          <br>
+          <span id="strength"></span>
+          <br>
+       </div>
+       <br>
+        <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label style="font-weight:25px; font-weight: bold; font-size: large;" class="form-check-label" for="exampleCheck1">Remember Me</label>
+        </div>
+        <br>
+        <br>
+        <button type="submit" onclick="validates();" class="btn btn-primary btn-lg btn-block ">Login</button>
+        <br>
+        <br>
+        <div class="form-group">
+            <label class="form-check-label" style="font-weight: bold; font-size: large;" for="exampleCheck1">Don't have an account?</label>
+            <a href="signup.html">Sign up</a>
+          </div>
+      </form>
+    </div>
+    
+</div>
+       <!-- Footer -->
+       <footer class="page-footer font-small blue pt-4 myfoot" id="#contactus">
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+          <!-- Grid row -->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-6 mb-md-0 mb-3 "  style="margin-left: 50px;  padding-left: 75px;">
+              <br>
+              <!-- Links -->
+              <h5 style="color: white;" class="text-uppercase">EXPLORE</h5>
+              <ul class="list-unstyled" >
+                <li>
+                  <a style="color: white; text-decoration: none;" href="index.html">Home</a>
+                </li>
+                <li>
+                  <a style="color: white; text-decoration: none;" href="district.html">Districts</a>
+                </li>
+                <li>
+                  <a style="color: white; text-decoration: none;" href="login.html">Login</a>
+                </li>
+                <li>
+                  <a style="color: white;text-decoration: none;" href="signup.html">Sign up</a>
+                </li>
+                </ul>
+            </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-5 mt-md-0 mt-3" style="color: white;">
+              <!-- Content -->
+              <!-- <h5 class="text-uppercase">Kerala</h5>
+              <p>Here you can use rows and columns to organize your footer content.</p> -->
+              <br>
+              <h5  class="text-uppercase">Contact Us</h5>
+              <p style="text-align: left;">Department of Tourism, Government of Kerala, <br>Park View, Thiruvananthapuram, <br>Kerala, India - 695 033
+              <br>Phone: +91 471 2321132,<br> Fax: +91 471 2322279, <br>E-mail: info@keralatourism.org</p>
+            </div>
+            <!-- Grid column -->
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <!-- Grid column -->
+            <!-- <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="text-uppercase">Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div> -->
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+         <!-- Copyright -->
+          <div style="color:white" class="footer-copyright text-center py-3 last">© 2020 Copyright: Kerala Tourism
+            <!-- <a href="https://mdb"> Kerala Tourism</a> -->
+          </div>
+          <!-- Copyright -->
+      </footer>
+      <!-- Footer --> 
+      <script src="./javascript/login.js"></script>
+</body>
+</html>

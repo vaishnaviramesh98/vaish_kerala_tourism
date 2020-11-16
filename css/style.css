@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* navigation */
+.mynav{
+        height: 4em;
+        font-size: 24px;
+        word-spacing: 4px;
+       
+        background-color: #012237;
+        transition: ease-in-out;
+        color:white;
+     }
+
+.mynav .myright{
+    margin-left: 55%;
+}
+.mynav .myright .item a{
+    padding: 12px;
+  
+}
+.mynav .myright .item a:hover{
+    background-color:  #022c46;
+    border-radius:24px;
+   
+}
+.mynav .myright .dropdown .dropdown-menu {
+   background-color:#08466d;
+}
+.mynav .myright .dropdown .dropdown-menu a{
+   color:white;
+}
+.mynav .myright .dropdown .dropdown-menu a:hover{
+   background-color: #1577b4;
+}
+/* end of navigation */
+/* description  */
+.descripcontainer{
+    background-color: 	#FFFAFA;
+    box-shadow: 5px 10px 18px #888888;
+    font-family: 'Domine', serif;
+    line-height: 1.5em;
+    color:#010c13;
+
+}
+/* .descripcontainer .description p h3{
+    font-family: 'Domine', serif;
+    line-height: 1.5em;
+    color:#010c13;
+} */
+.description{
+    margin: 30px;
+    text-align: justify;
+}
+.description h2{
+    margin-top: 0;
+    color: #012237;
+    font-size: 60px;
+    font-weight:600;
+
+}
+.description p{
+    
+    font-family: 'Domine', serif;
+    
+}
+/* end of description */
+/* gallery */
+.gallery{
+    background-image: url('../images/gallery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+/* end of gallery */
+/* end of the page */
+.myfoot{
+    background-color: #022c46;
+}
+.last{
+    background-color: #012237;
+}
+/* end of footer */
+
+/* district page */
+.mycard{
+    
+    margin: 25px;
+    /* box-shadow: 5px 10px 18px #888888; */ 
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.zoom {
+    /* padding: 50px; */
+    /* background-color: green; */
+    transition: transform .1s;
+    
+    /* width: 200px;
+    height: 200px;
+    margin: 0 auto; */
+    /* border-radius: 25px; */
+  }
+  
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
+  .banner{
+    background-image: url('../images/gallery.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height:100%;
+
+  }
+  .banner h1{
+      padding: 10%;
+      text-align:center;
+      color:#012237;
+      font-weight: bolder;
+      text-transform: uppercase;
+     
+  }
+/* end of page */
+/* single district page */
+.cardhead{
+    text-align: center;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.placestovisit{
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.placestovisit h1{
+    text-align: center;
+    padding-top: 25px;
+    text-transform: uppercase;
+    text-align:center;
+    font-weight:600;
+    font-family: 'Domine', serif;
+    color:#012237;
+}
+.aboutdistrict{
+    background-color: seagreen;
+    margin-left: 10%;
+    margin-right:10%;
+    padding: 30px;
+    text-align: justify;
+    /* border:2px solid grey; */
+    background-color: 	#FFFAFA;
+    box-shadow: 5px 10px 18px #888888;
+    font-family: 'Domine', serif;
+    line-height: 1.5em;
+    color:#010c13;
+}
+/* end */
+/* login */
+.log{
+    padding:7%;
+}
+.mylog .col-lg-4{
+    background: #023e63;
+    text-align: center;
+    padding-top: 10%;
+}
+.mylog .col-lg-4 h1{
+    color: white;
+}
+.mylog .col-lg-6{
+    background-color:white ;
+}
+/* end of page */
